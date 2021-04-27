@@ -1,0 +1,2202 @@
+2021-04-27 00:03:53,705 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 00:03:53,705 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:53,705 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:53,706 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 00:03:53,706 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:53,706 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:53,736 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:03:53,814 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:03:53,871 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 00:03:53,872 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:53,872 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:53,872 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 00:03:53,872 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:53,873 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:53,907 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:03:53,986 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:03:54,042 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 00:03:54,043 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:54,043 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:54,043 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 00:03:54,043 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:54,044 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:54,070 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:03:54,144 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:03:54,197 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 00:03:54,197 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:54,198 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:54,198 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 00:03:54,198 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:54,199 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:54,221 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:03:54,295 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:03:54,355 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/comment/post
+2021-04-27 00:03:54,355 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:54,355 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:54,356 - config.log.mylog - INFO - 用例描述 ==>> 验证用户评论帖子功能
+2021-04-27 00:03:54,356 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:54,356 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"root_id":0,"to_user_id":"1004-com.droidhang.aod.google-839699602","article_id":33972514177540,"article_type":0,"article_title":"air","is_essential":0,"to_comment_id":0,"comment_content":"test","account_id":"839699602","is_picture":0,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:54,382 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:03:54,459 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:03:54,501 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 00:03:54,503 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 00:03:54,503 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:54,504 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:54,504 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:03:54,505 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:54,505 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:54,537 - config.log.mylog - INFO - success
+2021-04-27 00:03:54,539 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 00:03:54,540 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:54,540 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:54,541 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:03:54,541 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:54,541 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:54,574 - config.log.mylog - INFO - success
+2021-04-27 00:03:54,578 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 00:03:54,578 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:54,580 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:54,581 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:03:54,582 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:54,582 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:54,612 - config.log.mylog - INFO - success
+2021-04-27 00:03:54,615 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 00:03:54,615 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:54,616 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:54,616 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:03:54,616 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:54,617 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:54,645 - config.log.mylog - INFO - success
+2021-04-27 00:03:54,647 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/comment/post
+2021-04-27 00:03:54,648 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:03:54,649 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:03:54,649 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:03:54,650 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:03:54,650 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"root_id":0,"to_user_id":"1004-com.droidhang.aod.google-839699602","article_id":33972514177540,"article_type":0,"article_title":"air","is_essential":0,"to_comment_id":0,"comment_content":"test","account_id":"839699602","is_picture":0,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:03:54,686 - config.log.mylog - INFO - success
+2021-04-27 00:03:54,690 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 00:38:19,548 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 00:38:19,549 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:19,549 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:19,549 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 00:38:19,550 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:19,550 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:19,589 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:38:19,658 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:38:19,700 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 00:38:19,700 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:19,701 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:19,701 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 00:38:19,701 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:19,701 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:19,933 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:38:19,997 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:38:20,039 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 00:38:20,039 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:20,039 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:20,039 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 00:38:20,040 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:20,040 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:20,067 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:38:20,132 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:38:20,181 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 00:38:20,181 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:20,181 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:20,182 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 00:38:20,182 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:20,182 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:20,206 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:38:20,267 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:38:20,309 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/comment/post
+2021-04-27 00:38:20,309 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:20,309 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:20,309 - config.log.mylog - INFO - 用例描述 ==>> 验证用户评论帖子功能
+2021-04-27 00:38:20,310 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:20,310 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"root_id":0,"to_user_id":"1004-com.droidhang.aod.google-839699602","article_id":33972514177540,"article_type":0,"article_title":"air","is_essential":0,"to_comment_id":0,"comment_content":"test","account_id":"839699602","is_picture":0,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:20,333 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:38:20,396 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:38:20,424 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 00:38:20,425 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 00:38:20,425 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:20,426 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:20,426 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:38:20,426 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:20,426 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:20,450 - config.log.mylog - INFO - success
+2021-04-27 00:38:20,453 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 00:38:20,454 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:20,454 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:20,454 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:38:20,455 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:20,455 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:20,494 - config.log.mylog - INFO - success
+2021-04-27 00:38:20,497 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 00:38:20,497 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:20,498 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:20,498 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:38:20,498 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:20,498 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:20,522 - config.log.mylog - INFO - success
+2021-04-27 00:38:20,525 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 00:38:20,526 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:20,526 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:20,526 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:38:20,527 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:20,527 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:20,555 - config.log.mylog - INFO - success
+2021-04-27 00:38:20,558 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/comment/post
+2021-04-27 00:38:20,558 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:38:20,559 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:38:20,559 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:38:20,559 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:38:20,560 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"root_id":0,"to_user_id":"1004-com.droidhang.aod.google-839699602","article_id":33972514177540,"article_type":0,"article_title":"air","is_essential":0,"to_comment_id":0,"comment_content":"test","account_id":"839699602","is_picture":0,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:38:20,586 - config.log.mylog - INFO - success
+2021-04-27 00:38:20,591 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 00:41:20,589 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 00:41:20,590 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:20,591 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:20,591 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 00:41:20,591 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:20,591 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:20,630 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:41:20,695 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:41:20,733 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 00:41:20,734 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:20,734 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:20,734 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 00:41:20,734 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:20,735 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:21,760 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:41:21,829 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:41:21,873 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 00:41:21,873 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:21,873 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:21,873 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 00:41:21,874 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:21,874 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:22,108 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:41:22,174 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:41:22,212 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 00:41:22,212 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:22,212 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:22,212 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 00:41:22,212 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:22,213 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:22,245 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:41:22,307 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:41:22,345 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/comment/post
+2021-04-27 00:41:22,345 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:22,345 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:22,346 - config.log.mylog - INFO - 用例描述 ==>> 验证用户评论帖子功能
+2021-04-27 00:41:22,346 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:22,346 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"root_id":0,"to_user_id":"1004-com.droidhang.aod.google-839699602","article_id":33972514177540,"article_type":0,"article_title":"air","is_essential":0,"to_comment_id":0,"comment_content":"test","account_id":"839699602","is_picture":0,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:22,372 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 00:41:22,436 - config.log.mylog - INFO - 测试通过
+2021-04-27 00:41:22,465 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 00:41:22,466 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 00:41:22,466 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:22,466 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:22,467 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:41:22,467 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:22,467 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:22,489 - config.log.mylog - INFO - success
+2021-04-27 00:41:22,492 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 00:41:22,493 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:22,493 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:22,494 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:41:22,495 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:22,496 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:22,522 - config.log.mylog - INFO - success
+2021-04-27 00:41:22,525 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 00:41:22,525 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:22,525 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:22,526 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:41:22,526 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:22,527 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:22,565 - config.log.mylog - INFO - success
+2021-04-27 00:41:22,568 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 00:41:22,568 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:22,569 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:22,569 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:41:22,569 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:22,570 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:22,591 - config.log.mylog - INFO - success
+2021-04-27 00:41:22,594 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/comment/post
+2021-04-27 00:41:22,595 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 00:41:22,595 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 00:41:22,595 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 00:41:22,596 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 00:41:22,596 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"root_id":0,"to_user_id":"1004-com.droidhang.aod.google-839699602","article_id":33972514177540,"article_type":0,"article_title":"air","is_essential":0,"to_comment_id":0,"comment_content":"test","account_id":"839699602","is_picture":0,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 00:41:22,636 - config.log.mylog - INFO - success
+2021-04-27 00:41:22,640 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 09:46:28,815 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:46:28,816 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:46:28,816 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:46:28,816 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:46:28,817 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:46:28,817 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:46:28,840 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:46:28,929 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:46:28,943 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:46:28,943 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:46:28,943 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:46:28,944 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:46:28,944 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:46:28,944 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:46:28,956 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:46:29,039 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:46:29,053 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:46:29,053 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:46:29,053 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:46:29,054 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:46:29,054 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:46:29,054 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:46:29,067 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:46:29,150 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:46:29,163 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:46:29,163 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:46:29,164 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:46:29,164 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:46:29,164 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:46:29,164 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:46:29,176 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:46:29,257 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:04,970 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:47:04,970 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:04,971 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:04,971 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:47:04,971 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:04,971 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:04,995 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:47:05,083 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:05,096 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:47:05,096 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:05,097 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:05,097 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:47:05,097 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:05,097 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:05,108 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:47:05,189 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:05,204 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:47:05,204 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:05,204 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:05,205 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:47:05,205 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:05,205 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:05,259 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:47:05,342 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:05,356 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:47:05,356 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:05,356 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:05,356 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:47:05,357 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:05,357 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:05,368 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:47:05,451 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:05,455 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 09:47:05,456 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:47:05,456 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:05,457 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:05,457 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:47:05,457 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:05,457 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:05,533 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:47:05,534 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:05,534 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:05,534 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:47:05,535 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:05,535 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:05,550 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:47:05,550 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:05,550 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:05,551 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:47:05,551 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:05,551 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:05,572 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:47:05,572 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:05,572 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:05,572 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:47:05,573 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:05,573 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:05,590 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 09:47:26,771 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:47:26,771 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:26,772 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:26,772 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:47:26,772 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:26,772 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:26,798 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:47:26,879 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:26,893 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:47:26,894 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:26,894 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:26,894 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:47:26,894 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:26,894 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:26,905 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:47:26,984 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:26,998 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:47:26,999 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:26,999 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:26,999 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:47:26,999 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:26,999 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:27,010 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:47:27,106 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:27,121 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:47:27,121 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:47:27,122 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:47:27,122 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:47:27,122 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:47:27,122 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:47:27,134 - config.log.mylog - INFO - 响应结果为:{'error_code': 105, 'error_msg': 'invalid token'}
+2021-04-27 09:47:27,218 - config.log.mylog - ERROR - 测试失败
+2021-04-27 09:47:56,459 - config.log.mylog - INFO - 登陆成功
+2021-04-27 09:48:03,008 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:48:03,008 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:03,008 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:03,009 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:48:03,009 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:03,009 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:03,035 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:48:03,098 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:48:03,137 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:48:03,137 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:03,137 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:03,137 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:48:03,137 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:03,138 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:03,151 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:48:03,206 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:48:03,248 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:48:03,248 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:03,248 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:03,248 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:48:03,248 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:03,249 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:03,261 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:48:03,325 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:48:03,367 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:48:03,367 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:03,368 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:03,368 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:48:03,368 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:03,368 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:03,385 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:48:03,444 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:48:10,276 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:48:10,276 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:10,277 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:10,277 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:48:10,277 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:10,277 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:10,300 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:48:10,361 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:48:10,402 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:48:10,402 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:10,402 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:10,403 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:48:10,403 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:10,403 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:10,416 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:48:10,474 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:48:10,515 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:48:10,515 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:10,515 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:10,515 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:48:10,515 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:10,516 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:10,528 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:48:10,587 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:48:10,627 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:48:10,627 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:10,628 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:10,628 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:48:10,628 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:10,628 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:10,641 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:48:10,698 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:48:10,729 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 09:48:10,730 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:48:10,730 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:10,730 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:10,731 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:48:10,731 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:10,731 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:10,744 - config.log.mylog - INFO - success
+2021-04-27 09:48:10,746 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:48:10,746 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:10,747 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:10,747 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:48:10,747 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:10,748 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:10,760 - config.log.mylog - INFO - success
+2021-04-27 09:48:10,762 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:48:10,762 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:10,762 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:10,763 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:48:10,763 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:10,763 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:10,775 - config.log.mylog - INFO - success
+2021-04-27 09:48:10,777 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:48:10,777 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:48:10,777 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:48:10,778 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:48:10,778 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:48:10,778 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:48:10,794 - config.log.mylog - INFO - success
+2021-04-27 09:48:10,796 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 09:50:05,391 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:50:05,391 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:50:05,392 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:50:05,392 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:50:05,392 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:50:05,393 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:50:05,409 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:50:05,467 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:50:05,507 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:50:05,507 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:50:05,507 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:50:05,507 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:50:05,508 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:50:05,508 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:50:05,522 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:50:05,573 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:50:05,615 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:50:05,615 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:50:05,615 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:50:05,615 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:50:05,616 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:50:05,616 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:50:05,630 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:50:05,682 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:50:05,722 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:50:05,723 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:50:05,723 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:50:05,723 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:50:05,724 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:50:05,724 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:50:05,738 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:50:05,791 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:50:31,754 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:50:31,754 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:50:31,755 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:50:31,755 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:50:31,755 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:50:31,756 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:50:31,781 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:50:31,838 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:50:31,880 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:50:31,880 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:50:31,880 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:50:31,880 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:50:31,880 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:50:31,881 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:50:31,892 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:50:31,944 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:50:31,988 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:50:31,988 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:50:31,988 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:50:31,988 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:50:31,989 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:50:31,989 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:50:32,006 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:50:32,065 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:50:32,105 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:50:32,106 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:50:32,106 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:50:32,106 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:50:32,106 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:50:32,106 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:50:32,119 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:50:32,171 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:42,246 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:51:42,247 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:42,247 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:42,247 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:51:42,248 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:42,248 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:42,275 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:51:42,339 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:42,377 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:51:42,377 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:42,378 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:42,378 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:51:42,378 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:42,378 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:42,393 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:51:42,453 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:42,491 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:51:42,491 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:42,491 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:42,492 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:51:42,492 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:42,492 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:42,508 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:51:42,567 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:42,605 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:51:42,605 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:42,605 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:42,606 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:51:42,606 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:42,606 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:42,618 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:51:42,680 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:42,710 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 09:51:42,711 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:51:42,711 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:42,711 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:42,711 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:51:42,711 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:42,712 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:42,727 - config.log.mylog - INFO - success
+2021-04-27 09:51:42,730 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:51:42,731 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:42,731 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:42,731 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:51:42,732 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:42,732 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:42,747 - config.log.mylog - INFO - success
+2021-04-27 09:51:42,750 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:51:42,751 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:42,751 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:42,751 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:51:42,752 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:42,752 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:42,765 - config.log.mylog - INFO - success
+2021-04-27 09:51:42,768 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:51:42,769 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:42,769 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:42,770 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:51:42,770 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:42,770 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:42,784 - config.log.mylog - INFO - success
+2021-04-27 09:51:42,787 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 09:51:54,188 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:51:54,189 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:54,189 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:54,189 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:51:54,189 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:54,190 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:54,213 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:51:54,271 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:54,312 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:51:54,312 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:54,312 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:54,312 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:51:54,313 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:54,313 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:54,326 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:51:54,377 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:54,423 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:51:54,423 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:54,424 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:54,424 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:51:54,424 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:54,424 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:54,437 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:51:54,489 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:54,529 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:51:54,529 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:54,529 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:54,530 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:51:54,530 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:54,530 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:54,542 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:51:54,593 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:51:54,623 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 09:51:54,637 - config.log.mylog - INFO - 登陆成功
+2021-04-27 09:51:54,638 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:51:54,638 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:54,639 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:54,639 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:51:54,639 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:54,639 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:54,651 - config.log.mylog - INFO - success
+2021-04-27 09:51:54,653 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:51:54,653 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:54,653 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:54,654 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:51:54,654 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:54,654 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:54,668 - config.log.mylog - INFO - success
+2021-04-27 09:51:54,670 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:51:54,670 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:54,670 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:54,671 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:51:54,671 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:54,671 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:54,683 - config.log.mylog - INFO - success
+2021-04-27 09:51:54,685 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:51:54,685 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:51:54,685 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:51:54,686 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:51:54,686 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:51:54,686 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:51:54,699 - config.log.mylog - INFO - success
+2021-04-27 09:51:54,701 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 09:52:09,126 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:52:09,126 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:52:09,127 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:52:09,127 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:52:09,127 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:52:09,127 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:52:09,155 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:52:09,218 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:52:09,256 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:52:09,257 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:52:09,257 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:52:09,257 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:52:09,257 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:52:09,257 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:52:09,273 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:52:09,332 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:52:09,370 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:52:09,370 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:52:09,370 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:52:09,370 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:52:09,370 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:52:09,371 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:52:09,383 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:52:09,439 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:52:09,477 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:52:09,478 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:52:09,478 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:52:09,478 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:52:09,478 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:52:09,478 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:52:09,491 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:52:09,546 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:52:09,574 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 09:52:09,593 - config.log.mylog - INFO - 登陆成功
+2021-04-27 09:52:09,595 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:52:09,595 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:52:09,595 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:52:09,596 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:52:09,596 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:52:09,596 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:52:09,611 - config.log.mylog - INFO - success
+2021-04-27 09:52:09,614 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:52:09,615 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:52:09,615 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:52:09,616 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:52:09,616 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:52:09,616 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:52:09,631 - config.log.mylog - INFO - success
+2021-04-27 09:52:09,633 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:52:09,633 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:52:09,634 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:52:09,634 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:52:09,634 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:52:09,635 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:52:09,648 - config.log.mylog - INFO - success
+2021-04-27 09:52:09,650 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:52:09,651 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:52:09,651 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:52:09,651 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:52:09,651 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:52:09,652 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:52:09,663 - config.log.mylog - INFO - success
+2021-04-27 09:52:09,666 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 09:59:48,610 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:59:48,610 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:59:48,611 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:59:48,611 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 09:59:48,611 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:59:48,611 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:59:48,637 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:59:48,702 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:59:48,741 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:59:48,741 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:59:48,741 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:59:48,742 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 09:59:48,742 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:59:48,742 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:59:48,761 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:59:48,822 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:59:48,862 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:59:48,863 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:59:48,863 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:59:48,863 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 09:59:48,863 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:59:48,863 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:59:48,878 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:59:48,948 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:59:48,996 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:59:48,996 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:59:48,996 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:59:48,996 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 09:59:48,997 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:59:48,997 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:59:49,008 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 09:59:49,071 - config.log.mylog - INFO - 测试通过
+2021-04-27 09:59:49,104 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 09:59:49,116 - config.log.mylog - INFO - 登陆成功
+2021-04-27 09:59:49,117 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 09:59:49,117 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:59:49,117 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:59:49,117 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:59:49,118 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:59:49,118 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:59:49,132 - config.log.mylog - INFO - success
+2021-04-27 09:59:49,132 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 09:59:49,132 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:59:49,133 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:59:49,133 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:59:49,133 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:59:49,133 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:59:49,145 - config.log.mylog - INFO - success
+2021-04-27 09:59:49,146 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 09:59:49,146 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:59:49,146 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:59:49,146 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:59:49,147 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:59:49,147 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:59:49,162 - config.log.mylog - INFO - success
+2021-04-27 09:59:49,163 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 09:59:49,163 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 09:59:49,163 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 09:59:49,163 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 09:59:49,163 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 09:59:49,163 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 09:59:49,175 - config.log.mylog - INFO - success
+2021-04-27 09:59:49,176 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 10:00:19,004 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 10:00:19,004 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:00:19,005 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:00:19,005 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 10:00:19,005 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:00:19,005 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:00:19,031 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 10:00:19,091 - config.log.mylog - INFO - 测试通过
+2021-04-27 10:00:19,129 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 10:00:19,129 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:00:19,130 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:00:19,130 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 10:00:19,130 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:00:19,130 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:00:19,147 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 10:00:19,210 - config.log.mylog - INFO - 测试通过
+2021-04-27 10:00:19,254 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 10:00:19,254 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:00:19,254 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:00:19,254 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 10:00:19,255 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:00:19,255 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:00:19,269 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 10:00:19,340 - config.log.mylog - INFO - 测试通过
+2021-04-27 10:00:19,381 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 10:00:19,382 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:00:19,382 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:00:19,382 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 10:00:19,382 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:00:19,382 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:00:19,394 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 10:00:19,448 - config.log.mylog - INFO - 测试通过
+2021-04-27 10:00:19,475 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 10:00:19,488 - config.log.mylog - INFO - 登陆成功
+2021-04-27 10:00:19,488 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 10:00:19,489 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:00:19,489 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:00:19,489 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 10:00:19,489 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:00:19,490 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:00:19,503 - config.log.mylog - INFO - success
+2021-04-27 10:00:19,504 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 10:00:19,504 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:00:19,504 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:00:19,504 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 10:00:19,505 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:00:19,505 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:00:19,518 - config.log.mylog - INFO - success
+2021-04-27 10:00:19,518 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 10:00:19,519 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:00:19,519 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:00:19,519 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 10:00:19,519 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:00:19,520 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:00:19,531 - config.log.mylog - INFO - success
+2021-04-27 10:00:19,531 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 10:00:19,532 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:00:19,532 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:00:19,532 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 10:00:19,532 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:00:19,533 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:00:19,545 - config.log.mylog - INFO - success
+2021-04-27 10:00:19,545 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 10:01:12,490 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 10:01:12,491 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:01:12,491 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:01:12,491 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 10:01:12,492 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:01:12,492 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:01:12,521 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 10:01:12,577 - config.log.mylog - INFO - 测试通过
+2021-04-27 10:01:12,615 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 10:01:12,616 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:01:12,616 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:01:12,616 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 10:01:12,616 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:01:12,616 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:01:12,630 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 10:01:12,688 - config.log.mylog - INFO - 测试通过
+2021-04-27 10:01:12,728 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 10:01:12,729 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:01:12,729 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:01:12,729 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 10:01:12,729 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:01:12,729 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:01:12,742 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 10:01:12,814 - config.log.mylog - INFO - 测试通过
+2021-04-27 10:01:12,859 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 10:01:12,859 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:01:12,859 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:01:12,859 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 10:01:12,860 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:01:12,860 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:01:12,878 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 10:01:12,930 - config.log.mylog - INFO - 测试通过
+2021-04-27 10:01:12,956 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 10:01:12,969 - config.log.mylog - INFO - 登陆成功
+2021-04-27 10:01:12,969 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 10:01:12,969 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:01:12,969 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:01:12,970 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 10:01:12,970 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:01:12,970 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:01:12,984 - config.log.mylog - INFO - success
+2021-04-27 10:01:12,985 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 10:01:12,985 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:01:12,985 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:01:12,985 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 10:01:12,986 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:01:12,986 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:01:12,999 - config.log.mylog - INFO - success
+2021-04-27 10:01:12,999 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 10:01:13,000 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:01:13,000 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:01:13,000 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 10:01:13,000 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:01:13,000 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:01:13,014 - config.log.mylog - INFO - success
+2021-04-27 10:01:13,014 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 10:01:13,014 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 10:01:13,014 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 10:01:13,015 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 10:01:13,015 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 10:01:13,015 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 10:01:13,030 - config.log.mylog - INFO - success
+2021-04-27 10:01:13,030 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 15:53:10,977 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 15:53:10,978 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:53:10,978 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:53:10,978 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 15:53:10,979 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:53:10,979 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:53:11,043 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:53:11,111 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:53:11,150 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 15:53:11,150 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:53:11,151 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:53:11,151 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 15:53:11,151 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:53:11,151 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:53:11,204 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:53:11,270 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:53:11,311 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 15:53:11,312 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:53:11,312 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:53:11,312 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 15:53:11,312 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:53:11,312 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:53:11,393 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:53:11,456 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:53:11,497 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 15:53:11,498 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:53:11,498 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:53:11,498 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 15:53:11,498 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:53:11,498 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:53:11,549 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:53:11,617 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:53:11,648 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 15:53:11,698 - config.log.mylog - INFO - 登陆成功
+2021-04-27 15:53:11,700 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 15:53:11,700 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:53:11,701 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:53:11,701 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 15:53:11,701 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:53:11,702 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:53:11,792 - config.log.mylog - INFO - success
+2021-04-27 15:53:11,794 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 15:53:11,794 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:53:11,795 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:53:11,795 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 15:53:11,795 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:53:11,795 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:53:11,849 - config.log.mylog - INFO - success
+2021-04-27 15:53:11,851 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 15:53:11,852 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:53:11,852 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:53:11,852 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 15:53:11,852 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:53:11,853 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:53:11,904 - config.log.mylog - INFO - success
+2021-04-27 15:53:11,906 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 15:53:11,907 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:53:11,907 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:53:11,907 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 15:53:11,908 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:53:11,908 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:53:11,954 - config.log.mylog - INFO - success
+2021-04-27 15:53:11,957 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 15:59:39,708 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 15:59:39,709 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:39,709 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:39,710 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 15:59:39,710 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:39,710 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:39,798 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:59:39,869 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:59:39,911 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 15:59:39,911 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:39,912 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:39,912 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 15:59:39,912 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:39,912 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:39,998 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:59:40,056 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:59:40,095 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 15:59:40,095 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:40,095 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:40,096 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 15:59:40,096 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:40,096 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:40,149 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:59:40,226 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:59:40,274 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 15:59:40,274 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:40,275 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:40,275 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 15:59:40,275 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:40,275 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:40,456 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:59:40,526 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:59:49,857 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 15:59:49,858 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:49,858 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:49,858 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 15:59:49,858 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:49,858 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:49,949 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:59:50,014 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:59:50,063 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 15:59:50,064 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:50,064 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:50,064 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 15:59:50,064 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:50,065 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:50,148 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:59:50,214 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:59:50,258 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 15:59:50,259 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:50,259 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:50,259 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 15:59:50,259 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:50,260 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:50,349 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:59:50,420 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:59:50,466 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 15:59:50,467 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:50,467 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:50,467 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 15:59:50,467 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:50,467 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:50,548 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 15:59:50,619 - config.log.mylog - INFO - 测试通过
+2021-04-27 15:59:50,658 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 15:59:50,749 - config.log.mylog - INFO - 登陆成功
+2021-04-27 15:59:50,751 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 15:59:50,751 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:50,752 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:50,752 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 15:59:50,752 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:50,753 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:50,806 - config.log.mylog - INFO - success
+2021-04-27 15:59:50,809 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 15:59:50,810 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:50,810 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:50,811 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 15:59:50,811 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:50,811 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:50,899 - config.log.mylog - INFO - success
+2021-04-27 15:59:50,902 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 15:59:50,902 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:50,903 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:50,903 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 15:59:50,903 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:50,904 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:50,955 - config.log.mylog - INFO - success
+2021-04-27 15:59:50,958 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 15:59:50,959 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 15:59:50,961 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 15:59:50,961 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 15:59:50,962 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 15:59:50,962 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 15:59:51,049 - config.log.mylog - INFO - success
+2021-04-27 15:59:51,053 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 16:00:11,481 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:00:11,481 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:00:11,481 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:00:11,481 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 16:00:11,482 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:00:11,482 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:00:11,557 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:00:11,626 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:00:11,666 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:00:11,666 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:00:11,666 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:00:11,666 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 16:00:11,667 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:00:11,667 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:00:11,750 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:00:11,818 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:00:11,858 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:00:11,858 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:00:11,858 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:00:11,858 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 16:00:11,858 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:00:11,859 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:00:11,950 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:00:12,028 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:00:12,078 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:00:12,078 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:00:12,078 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:00:12,079 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 16:00:12,079 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:00:12,079 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:00:12,200 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:00:12,270 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:00:12,302 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 16:00:12,350 - config.log.mylog - INFO - 登陆成功
+2021-04-27 16:00:12,350 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:00:12,351 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:00:12,351 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:00:12,351 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:00:12,352 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:00:12,352 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:00:12,406 - config.log.mylog - INFO - success
+2021-04-27 16:00:12,407 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:00:12,407 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:00:12,407 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:00:12,408 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:00:12,408 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:00:12,408 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:00:12,499 - config.log.mylog - INFO - success
+2021-04-27 16:00:12,500 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:00:12,501 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:00:12,501 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:00:12,501 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:00:12,502 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:00:12,502 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:00:12,550 - config.log.mylog - INFO - success
+2021-04-27 16:00:12,550 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:00:12,551 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:00:12,551 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:00:12,552 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:00:12,552 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:00:12,553 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:00:12,605 - config.log.mylog - INFO - success
+2021-04-27 16:00:12,606 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 16:14:43,648 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:14:43,648 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:14:43,648 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:14:43,649 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 16:14:43,649 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:14:43,649 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:14:43,724 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:14:43,790 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:14:43,831 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:14:43,831 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:14:43,832 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:14:43,832 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 16:14:43,832 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:14:43,832 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:14:43,880 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:14:43,945 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:14:43,988 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:14:43,988 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:14:43,989 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:14:43,989 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 16:14:43,989 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:14:43,989 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:14:44,075 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:14:44,151 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:14:44,199 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:14:44,199 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:14:44,199 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:14:44,199 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 16:14:44,200 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:14:44,200 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:14:44,275 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:14:44,345 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:16:33,019 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:16:33,019 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:16:33,020 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:16:33,020 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 16:16:33,020 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:16:33,020 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:16:33,086 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:16:33,155 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:16:33,195 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:16:33,195 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:16:33,195 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:16:33,196 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 16:16:33,196 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:16:33,196 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:16:33,277 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:16:33,346 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:16:33,388 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:16:33,388 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:16:33,388 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:16:33,388 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 16:16:33,388 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:16:33,388 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:16:33,528 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:16:33,609 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:16:33,657 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:16:33,658 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:16:33,658 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:16:33,658 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 16:16:33,658 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:16:33,659 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:16:34,028 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:16:34,097 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:16:34,126 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 16:16:34,278 - config.log.mylog - INFO - 登陆成功
+2021-04-27 16:16:34,279 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:16:34,279 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:16:34,280 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:16:34,280 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:16:34,280 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:16:34,281 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:16:34,435 - config.log.mylog - INFO - success
+2021-04-27 16:16:34,436 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:16:34,436 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:16:34,437 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:16:34,437 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:16:34,437 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:16:34,437 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:16:34,778 - config.log.mylog - INFO - success
+2021-04-27 16:16:34,779 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:16:34,779 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:16:34,779 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:16:34,780 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:16:34,780 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:16:34,780 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:16:34,978 - config.log.mylog - INFO - success
+2021-04-27 16:16:34,979 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:16:34,979 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:16:34,980 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:16:34,980 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:16:34,980 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:16:34,981 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:16:35,036 - config.log.mylog - INFO - success
+2021-04-27 16:16:35,036 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 16:17:04,800 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:17:04,800 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:17:04,801 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:17:04,801 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 16:17:04,801 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:17:04,802 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:17:04,886 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:17:04,954 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:17:04,996 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:17:04,996 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:17:04,997 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:17:04,997 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 16:17:04,997 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:17:04,997 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:17:05,079 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:17:05,147 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:17:05,187 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:17:05,187 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:17:05,187 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:17:05,188 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 16:17:05,188 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:17:05,188 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:17:05,284 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:17:05,351 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:17:05,396 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:17:05,397 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:17:05,397 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:17:05,397 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 16:17:05,397 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:17:05,397 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:17:05,485 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:17:05,551 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:17:05,582 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 16:17:05,636 - config.log.mylog - INFO - 登陆成功
+2021-04-27 16:17:05,638 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:17:05,638 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:17:05,638 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:17:05,639 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:17:05,639 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:17:05,639 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:17:05,729 - config.log.mylog - INFO - success
+2021-04-27 16:17:05,732 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:17:05,733 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:17:05,733 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:17:05,733 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:17:05,734 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:17:05,734 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:17:05,786 - config.log.mylog - INFO - success
+2021-04-27 16:17:05,789 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:17:05,790 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:17:05,790 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:17:05,790 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:17:05,791 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:17:05,791 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:17:05,878 - config.log.mylog - INFO - success
+2021-04-27 16:17:05,880 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:17:05,881 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:17:05,881 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:17:05,881 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:17:05,882 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:17:05,882 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:17:05,938 - config.log.mylog - INFO - success
+2021-04-27 16:17:05,941 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 16:19:54,572 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:19:54,573 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:19:54,573 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:19:54,573 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 16:19:54,573 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:19:54,574 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:19:54,634 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:19:54,704 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:19:54,744 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:19:54,744 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:19:54,744 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:19:54,745 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 16:19:54,745 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:19:54,745 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:19:54,841 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:19:54,908 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:19:54,948 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:19:54,948 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:19:54,948 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:19:54,948 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 16:19:54,948 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:19:54,949 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:19:55,042 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:19:55,108 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:19:55,151 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:19:55,151 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:19:55,152 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:19:55,152 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 16:19:55,152 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:19:55,152 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:19:55,234 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:19:55,308 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:19:55,340 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 16:19:55,392 - config.log.mylog - INFO - 登陆成功
+2021-04-27 16:19:55,393 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:19:55,394 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:19:55,395 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:19:55,395 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:19:55,396 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:19:55,396 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:19:55,484 - config.log.mylog - INFO - success
+2021-04-27 16:19:55,487 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:19:55,488 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:19:55,488 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:19:55,488 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:19:55,489 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:19:55,489 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:19:55,541 - config.log.mylog - INFO - success
+2021-04-27 16:19:55,544 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:19:55,545 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:19:55,545 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:19:55,545 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:19:55,546 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:19:55,546 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:19:55,595 - config.log.mylog - INFO - success
+2021-04-27 16:19:55,597 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:19:55,597 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:19:55,597 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:19:55,598 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:19:55,598 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:19:55,598 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:19:55,646 - config.log.mylog - INFO - success
+2021-04-27 16:19:55,649 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 16:25:16,358 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:25:16,359 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:25:16,359 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:25:16,359 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 16:25:16,360 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:25:16,360 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:25:16,413 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:25:16,484 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:25:16,524 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:25:16,524 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:25:16,524 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:25:16,524 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 16:25:16,524 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:25:16,525 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:25:16,613 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:25:16,681 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:25:16,723 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:25:16,723 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:25:16,724 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:25:16,724 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 16:25:16,724 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:25:16,724 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:25:16,813 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:25:16,882 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:25:16,929 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:25:16,929 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:25:16,929 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:25:16,929 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 16:25:16,929 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:25:16,930 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:25:17,013 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:25:17,083 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:25:17,115 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 16:25:17,163 - config.log.mylog - INFO - 登陆成功
+2021-04-27 16:25:17,165 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:25:17,165 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:25:17,166 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:25:17,166 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:25:17,166 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:25:17,167 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:25:17,220 - config.log.mylog - INFO - success
+2021-04-27 16:25:17,223 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:25:17,224 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:25:17,224 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:25:17,224 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:25:17,225 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:25:17,225 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:25:17,312 - config.log.mylog - INFO - success
+2021-04-27 16:25:17,314 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:25:17,315 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:25:17,315 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:25:17,315 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:25:17,316 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:25:17,316 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:25:17,369 - config.log.mylog - INFO - success
+2021-04-27 16:25:17,372 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:25:17,372 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:25:17,372 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:25:17,373 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:25:17,373 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:25:17,373 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:25:17,462 - config.log.mylog - INFO - success
+2021-04-27 16:25:17,465 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 16:26:12,689 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:26:12,689 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:26:12,690 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:26:12,690 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子点赞功能
+2021-04-27 16:26:12,690 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:26:12,690 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:26:12,815 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:26:12,886 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:26:12,935 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:26:12,935 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:26:12,935 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:26:12,935 - config.log.mylog - INFO - 用例描述 ==>> 验证帖子取消点赞功能
+2021-04-27 16:26:12,935 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:26:12,936 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:26:13,014 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:26:13,082 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:26:13,124 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:26:13,124 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:26:13,124 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:26:13,125 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家关注功能
+2021-04-27 16:26:13,125 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:26:13,125 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:26:13,215 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:26:13,292 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:26:13,340 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:26:13,340 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:26:13,340 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:26:13,340 - config.log.mylog - INFO - 用例描述 ==>> 验证玩家取消关注功能
+2021-04-27 16:26:13,341 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:26:13,341 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:26:13,414 - config.log.mylog - INFO - 响应结果为:{'error_code': 0, 'error_msg': 'success'}
+2021-04-27 16:26:13,482 - config.log.mylog - INFO - 测试通过
+2021-04-27 16:26:13,514 - config.log.mylog - INFO - ******************** 测试开始 ********************
+2021-04-27 16:26:13,564 - config.log.mylog - INFO - 登陆成功
+2021-04-27 16:26:13,565 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/like
+2021-04-27 16:26:13,566 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:26:13,566 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:26:13,566 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:26:13,567 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:26:13,567 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:26:13,623 - config.log.mylog - INFO - success
+2021-04-27 16:26:13,623 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/article/unlike
+2021-04-27 16:26:13,624 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:26:13,624 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:26:13,624 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:26:13,625 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:26:13,625 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"article_id":29166137409543,"article_title":"test","article_type":4,"is_essential":0,"author_id":"1001-gameAD-1615433412526","user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:26:13,721 - config.log.mylog - INFO - success
+2021-04-27 16:26:13,721 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/follow
+2021-04-27 16:26:13,722 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:26:13,722 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:26:13,722 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:26:13,723 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:26:13,723 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"follow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:26:13,815 - config.log.mylog - INFO - success
+2021-04-27 16:26:13,815 - config.log.mylog - INFO - 接口请求地址 ==>> http://182.150.22.61:37777/v2/user/unfollow
+2021-04-27 16:26:13,816 - config.log.mylog - INFO - 接口请求方式 ==>> post
+2021-04-27 16:26:13,816 - config.log.mylog - INFO - 接口请求头 headers参数 ==>> {
+    "Content-Type": "application/json",
+    "X-UserID": "1004-com.droidhang.aod.google-839699602",
+    "Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkaEFjY291bnRJZCI6ODM5Njk5NjAyLCJleHBpcmUiOjE2MTc5NTg1MDR9.x4ZEC1u4XwDHkAQropyN6fL5CbRnavfI10C53_0s0vU"
+}
+2021-04-27 16:26:13,817 - config.log.mylog - INFO - 用例描述 ==>> None
+2021-04-27 16:26:13,817 - config.log.mylog - INFO - 接口请求 params 参数 ==>> null
+2021-04-27 16:26:13,817 - config.log.mylog - INFO - 接口请求体 data 参数 ==>> {"unfollow_user_id":"1001-gameAD-1615433412526","is_official":1,"user_id":"1004-com.droidhang.aod.google-839699602","game_id":1004}
+2021-04-27 16:26:13,874 - config.log.mylog - INFO - success
+2021-04-27 16:26:13,875 - config.log.mylog - INFO - ********************  测试结束  ********************
+2021-04-27 16:37:53,069 - config.log.mylog - ERROR - 发送邮件失败
