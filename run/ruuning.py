@@ -23,7 +23,7 @@ class Testcase01(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         log.info('******************** 测试开始 ********************')
-        Login.login()
+        # Login.login()
     @classmethod
     def tearDownClass(cls):
         log.info('********************  测试结束  ********************')
