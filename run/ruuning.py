@@ -23,7 +23,7 @@ class Testcase01(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         log.info('******************** 测试开始 ********************')
-        # Login.login()
+        Login.login()
     @classmethod
     def tearDownClass(cls):
         log.info('********************  测试结束  ********************')
@@ -32,7 +32,7 @@ class Testcase01(unittest.TestCase):
     @ddt.data(*e)
     @ddt.unpack
     def testcase01(self,method,url,datas,headers):
-        '''测试用例'''
+        '''帖子维护'''
         result = m.man(method,url,datas,headers)
         self.assertIn(result,'success',"测试失败")
         log.info(result)
