@@ -1,19 +1,18 @@
-#encoding:utf-8
+import os
+import sys
 import unittest
-import os,sys,ddt
-curPath = os.path.abspath(os.path.dirname(__file__))
-rootPath = os.path.split(curPath)[0]
+
+Path = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(Path)[0]
 sys.path.append(rootPath)
+import ddt
 import warnings
 from common.login import Login
 from util.data.writeexcel import runn
 from config.allpath import *
 from config.log.mylog import log
 from case.community import m
-curPath = os.path.abspath(os.path.dirname(__file__))
-rootPath = os.path.split(curPath)[0]
-sys.path.append(rootPath)
-from BeautifulReport import BeautifulReport
+
 warnings.filterwarnings("ignore")
 result_path=data_debug
 
