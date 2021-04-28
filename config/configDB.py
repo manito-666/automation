@@ -1,3 +1,4 @@
+# coding=utf-8
 import pymysql
 import config.readconfig as readconfig
 from config.log.mylog import log
